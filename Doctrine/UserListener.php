@@ -12,7 +12,7 @@
 namespace FOS\UserBundle\Doctrine;
 
 use Doctrine\Common\EventSubscriber;
-use Doctrine\Common\Persistence\Event\LifecycleEventArgs;
+use Doctrine\ORM\Event\PreUpdateEventArgs as LifecycleEventArgs;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ORM\EntityManager;
